@@ -28,3 +28,8 @@
     ]
 }
 ```
+
+更新子模块引用
+```shell
+git add tun2socks
+```
