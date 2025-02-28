@@ -33,6 +33,7 @@ jobs:
       - name: Build xcframework
         run: |
           cd tun2socks
+          git submodule update --init --recursive
           make xcframework
           cd target
           zip -r Tun2SocksFramework.xcframework.zip Tun2SocksFramework.xcframework
